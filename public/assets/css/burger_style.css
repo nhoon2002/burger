@@ -9,8 +9,8 @@ li {
 }
 
 .create-update-form {
-  background: aqua;
-  margin: 5px;
+  background: #FAEBD7;
+  margin: 5px 5px 5px 25px;
   padding: 5px;
 }
 
@@ -18,32 +18,55 @@ li {
   margin-bottom: 5px;
 }
 
-#yes_devoured {
-  float: right;
-  width: 33.33%;
+#containBurger {
+  width: 100%;
+  display: inline-block;
 }
 
 #not_devoured {
+  margin-top: 100px;
   float: left;
-  width: 33.33%;
+  width: 33%;
 }
+
+#midBurger {
+  margin-left: 20px;
+  float: left;
+  width: 33%;
+  margin-right: -20px;
+}
+#yes_devoured {
+  margin-top: 100px;
+  float: left;
+  width: 33%;
+}
+
+
 
 #createBurger {
-  float: left;
-  width: 33.33%;
+  clear: both;
+  margin:0 auto;
+  width: 50%;
 }
 
-#burgerImg {
-  width: 500px;
-  margin:0 auto;
+#burgerJpg {
+  width: 100%;
 
 }
 
-#headerBurger {
-  width: 100px;
-  margin:0 auto;
+
+#headerBurger, .addBurger {
+  font-family: 'Bungee Shade', cursive;
+
+  text-align: center;
 }
 
 body {
   background-color: #ffc300;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+h2 {
+  text-align: center;
 }
